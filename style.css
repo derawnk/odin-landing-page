@@ -2,22 +2,108 @@ h5 {
     color: azure;
 }
 
+
 img {
     width: 200px;
     height: 200px;
 }
 
-.section-one {
-    background-color: #1f2937;
+
+button {
+    color: white;
+    background-color: #3882f6;
 }
 
-.section-three {
-    background-color: lightgrey;
+
+.section-one {
+    display: flex;
+    background-color: #1f2937;
+    height: 500px;
 }
+
+
+.section-one img {
+    height: 350px;
+    width: 300px;
+}
+
+.section-one h1 {
+    height: 50px;
+    width: 100px;
+}
+
+
+.section-one h2 {
+    height: 1px;
+    width: 50px;
+}
+
+
+.section-one p {
+    height: 20px;
+    width: 50px
+}
+
+
+.flex-container-one {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    height: 50px;
+}
+
+
+.flex-container-one button {
+    color: white;
+    background-color: #3882f6;
+    margin: 10px;
+      
+}
+
+
+.flex-container-two {
+    display: flex;
+    margin: 20px;
+    height: 50px;
+}
+
+
+.flex-container-two button {
+    color: white;
+    background-color: #3882f6;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button-container-three {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.section-three {
+    background-color: #e5e7eb;
+}
+
 
 .section-four-box {
     background-color: aqua;
 }
+
 
 .footer {
     background-color: #1f2937;
